@@ -3,7 +3,7 @@ class HelloSwift < Formula
   homepage ""
   url "https://github.com/vi4m/hello-swift/archive/0.1.0.tar.gz"
   version "0.1.0"
-  sha256 "bfb475547483fdee03b4907b21b5a753b69309e428ed5df9e4e64f93ac9dedc4"
+  sha256 "8669ea27154bd676760286b9a11c6258e0943163d043dee1f087e934d5496217"
 
   def install
     system "unset CC; swift build -c release"
