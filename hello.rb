@@ -1,5 +1,5 @@
 class HelloSwift < Formula
-  desc ""
+  desc "hello world in swift"
   homepage ""
   url "https://github.com/vi4m/hello-swift/archive/0.1.0.tar.gz"
   version "0.1.0"
