@@ -1,8 +1,8 @@
 class Calendarsync < Formula
   desc "Small tool to synchronise OSX calendars. It enables Apple Watch calendar sync, from unsupported calendars."
-  url "https://github.com/vi4m/calendarsync/archive/0.1.0.tar.gz"
-  version "0.1.0"
-  sha256 "e7cfdc6fc6ec357b55ecaaf3a137ca34dd3fc6c6a253e3e5775e876cca0833f6" 
+  url "https://github.com/vi4m/calendarsync/archive/0.1.1.tar.gz"
+  version "0.1.1"
+  sha256 "71a7410b2544f87fb849a5afa87569c209b35df48836e7a0adc5d34eb0ccb7f0" 
 
   def install
     system "unset CC; swift build -c release"
